@@ -1,3 +1,16 @@
 = i18n-js wrapper for Padrino
 
 Read https://github.com/fnando/i18n-js for how to use i18n-js on your app but include the gem i18n-js_padrino instead of the original in your Gemfile.
+
+== Make it work in dev mode (quick & dirty way)
+
+Include this in your app.rb:
+
+  before do
+    SimplesIdeias::I18n.export! if (Padrino.env == :development)
+  end
+
+== TODO
+  - Figure out why it doesn't reload the locales when reloading the page (you have to restart the server) even if
+  the before is there in dev mode.
+  - Make the rake tasks available through padrino rake. You can include them yourself for now from https://github.com/fnando/i18n-js/blob/master/lib/i18n-js/rake.rb
