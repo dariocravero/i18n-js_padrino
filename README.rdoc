@@ -11,6 +11,7 @@ Include this in your app.rb:
   end
 
 == TODO
-  - Figure out why it doesn't reload the locales when reloading the page (you have to restart the server) even if
-  the before is there in dev mode.
-  - Make the rake tasks available through padrino rake. You can include them yourself for now from https://github.com/fnando/i18n-js/blob/master/lib/i18n-js/rake.rb
+* Support sprockets.
+* Figure out why it doesn't reload the locales when reloading the page (you have to restart the server) even if
+the before is there in dev mode.
+* Make the rake tasks available through padrino rake. You can include them yourself for now from https://github.com/fnando/i18n-js/blob/master/lib/i18n-js/rake.rb
