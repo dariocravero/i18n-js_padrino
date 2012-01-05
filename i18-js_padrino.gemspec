@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = "i18n-js_padrino"
-  s.version = "0.2"
+  s.version = "0.2.1"
   s.required_ruby_version = ">= 1.8.6"
   s.authors = ["Dario Javier Cravero"]
   s.summary = "i18n-js_padrino is a Padrino's wrapper around i18n-js' Rails plugin for using your I18n locales in JavaScript."

@@ -17,7 +17,7 @@ module SimplesIdeias
         "0"
       end
 
-      def configuration
+      def self.configuration
       end
 
       def self.root
