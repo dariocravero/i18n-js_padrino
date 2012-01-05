@@ -16,7 +16,10 @@ module SimplesIdeias
         # Will also need to define Rails.configuration.assets.enabled 
         "0"
       end
-      
+
+      def configuration
+      end
+
       def self.root
         Pathname.new(PADRINO_ROOT)
       end
